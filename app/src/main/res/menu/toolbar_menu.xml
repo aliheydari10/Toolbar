@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Settings"
+        android:id="@+id/setting" />
+
+    <item
+        android:title="About"
+        android:id="@+id/about" />
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        app:showAsAction="always"
+        android:icon="@mipmap/profile"
+        />
+
+    <item
+        android:title="Basket"
+        android:icon="@mipmap/basket"
+        android:id="@+id/basket"
+        app:showAsAction="always"
+        />
+
+
+</menu>
